@@ -19,6 +19,7 @@ import com.it.testprojects.gps.LocationConverter.longitudeAsDMS
 import java.util.*
 
 class GoogleService : Service(), LocationListener {
+
     var isGPSEnable = false
     var isNetworkEnable = false
     var latitude = 0.0
